@@ -7,3 +7,5 @@
 marjan-tanevski/marjan-tanevski is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
+
+[![sample-workflow](https://github.com/marjan-tanevski/marjan-tanevski/actions/workflows/sample-workflow.yml/badge.svg)](https://github.com/marjan-tanevski/marjan-tanevski/actions/workflows/sample-workflow.yml)
