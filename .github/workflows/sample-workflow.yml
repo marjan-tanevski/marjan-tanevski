@@ -1,0 +1,12 @@
+name: sample-workflow # The name of the workflow
+on: [push] # Events that trigger the job
+jobs: # A list of jobs
+  check-bats-version: # The name of the first job
+    runs-on: ubuntu-latest # The name of the virtual machine hosted by GitHub
+    steps: # The list of seqential steps  
+      - uses: actions/checkout@v2 # Each item is a step
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+      - run: npm install -g bats
+      - run: bats -v
